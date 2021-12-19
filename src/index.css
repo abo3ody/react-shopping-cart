@@ -240,3 +240,31 @@ input {
    top: 2.5rem;
    z-index: 1000;
 }
+
+/* order details */
+.order_details {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   flex-direction: column;
+}
+
+.order_details li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.order_details li div {
+   padding: 10px;
+}
+
+.order_details .items {
+   text-align: right;
+   padding: 0;
+}
+
+.success_message {
+   color: green;
+}
